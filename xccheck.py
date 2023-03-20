@@ -4,7 +4,7 @@ This script will compare the list of documented F5 Distributed Cloud TLS and
 Cipher versions with the TLS version and Ciphers from an sslscan xml output
 
 Requirements:
-  ratings.csv file containing the support TLS Versions, and Ciphers support on XC.
+  xctlsratings.csv file containing the support TLS Versions, and Ciphers support on XC.
   xml output from sslscan
 
 Usage:
@@ -30,7 +30,7 @@ def process_sslscan(xml_file_path, ratings_file_path):
         cipher_name = cipher.get('cipher')
         accepted_ciphers.append((sslversion, cipher_name))
 
-    # Read ratings.csv
+    # Read xctlsratings.csv
     with open(ratings_file_path, 'r') as csvfile:
         csvreader = csv.reader(csvfile)
         header = next(csvreader)
@@ -48,6 +48,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     xml_file_path = sys.argv[1]
-    ratings_file_path = 'ratings.csv'  # Replace this with the path to your ratings.csv file if necessary
+    ratings_file_path = 'xctlsratings.csv'  # Replace this with the path to your ratings.csv file if necessary
 
     process_sslscan(xml_file_path, ratings_file_path)
