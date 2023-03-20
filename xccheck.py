@@ -48,6 +48,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     xml_file_path = sys.argv[1]
-    ratings_file_path = 'xctlsratings.csv'  # Replace this with the path to your ratings.csv file if necessary
+    ratings_file_path = 'xctlsratings.csv'  # Replace this with the path to your xctlsratings.csv file if necessary
 
     process_sslscan(xml_file_path, ratings_file_path)
