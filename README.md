@@ -4,6 +4,10 @@
 
 This script will compare the list of documented F5 Distributed Cloud TLS and Cipher versions with the TLS version and Ciphers from an sslscan xml output.
 
+## Limitations
+
+This script will not compare TLS 1.3 Cipher groups. 
+
 ## Requirements
 
 -   Python 3.x
