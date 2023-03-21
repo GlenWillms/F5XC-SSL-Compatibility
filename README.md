@@ -11,10 +11,15 @@ This script will not compare TLS 1.3 Cipher groups.
 ## sample sslscan results in this repo include:
 From March 2023
   google.xml    #google.com
+
   nginx.xml     #nginx.org
+
   xc-high.xml   #F5 Distributed cloud load balancer configured to High
+
   xc-medium.xml #F5 Distributed cloud load balancer configured to Medium
+
   xc-low.xml    #F5 Distributed cloud load balancer configured to Low
+  
 
 ## Requirements
 
