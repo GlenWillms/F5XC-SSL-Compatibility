@@ -9,17 +9,14 @@ This script will compare the list of documented F5 Distributed Cloud TLS and Cip
 This script will not compare TLS 1.3 Cipher groups. 
 
 ## sample sslscan results in this repo include:
-From March 2023
+From March 2023:
+```shell
   google.xml    #google.com
-
   nginx.xml     #nginx.org
-
   xc-high.xml   #F5 Distributed cloud load balancer configured to High
-
   xc-medium.xml #F5 Distributed cloud load balancer configured to Medium
-
   xc-low.xml    #F5 Distributed cloud load balancer configured to Low
-  
+```
 
 ## Requirements
 
