@@ -1,8 +1,8 @@
-# F5 Distributed Cloud TLS and Cipher Comparison
+# F5 Distributed Cloud Cipher Comparison Checker.
 
 ## Purpose
 
-This script will compare the list of documented F5 Distributed Cloud TLS and Cipher versions with the TLS version and Ciphers from an sslscan xml output.
+This script will compare the list of documented F5 Distributed Cloud TLS and Cipher versions with the TLS version and Ciphers from an sslscan xml output. This is used to find the maximum TLS values between F5 Distributed Cloud and a backend origin server. 
 
 ## Limitations
 
